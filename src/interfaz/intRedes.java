@@ -282,7 +282,7 @@ public class intRedes extends javax.swing.JFrame {
             if(jTbPc1.isSelected() == true){
                 estadoEnlace a = new estadoEnlace(graph[0].length);
             
-            a.dijkstra(graph2, 0);
+            a.dijkstra(graph, 0);
             contador++;
             
         }   else{
@@ -313,7 +313,7 @@ public class intRedes extends javax.swing.JFrame {
             if(jTbPc2.isSelected() == true){
                 estadoEnlace a = new estadoEnlace(graph[0].length);
             
-            a.dijkstra(graph2, 1);
+            a.dijkstra(graph, 1);
             contador++;
             
         }   else{
@@ -339,7 +339,7 @@ public class intRedes extends javax.swing.JFrame {
             if(jTbPc3.isSelected() == true){
             estadoEnlace a = new estadoEnlace(graph[0].length);
             
-            a.dijkstra(graph2, 2);
+            a.dijkstra(graph, 2);
             contador++;
             
         }   else{
@@ -366,7 +366,7 @@ public class intRedes extends javax.swing.JFrame {
             if(jTbPc4.isSelected() == true){
             estadoEnlace a = new estadoEnlace(graph[0].length);
             
-            a.dijkstra(graph2, 3);
+            a.dijkstra(graph, 3);
             contador++;
             
         }   else{
